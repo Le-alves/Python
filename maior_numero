@@ -1,0 +1,22 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Nome: Lê Alves
+# Programa: Phyton
+# Data: 30/11/2021
+#Faça um Programa que peça dois números e imprima o maior deles.
+#------------------------------------------------------------------------------------------------------------------------------
+
+#---------------ENTRADA-----------------
+
+numero_1 = float (input("Digite um número: "))
+numero_2 = float (input("Digite outro número: "))
+    
+#-------------PROCESSO-------------------
+
+if numero_1 > numero_2:
+    print(numero_1," é o maior número")
+        
+elif numero_1 < numero_2:
+    print(numero_2," é o maior número")
+
+
+#--------------SAÍDA---------------------

@@ -1,0 +1,26 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Nome: Lê Alves
+# Programa: Phyton
+# Data: 31/12/2021
+# Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, 
+# sabendo que a decisão é sempre pelo mais barato.
+#------------------------------------------------------------------------------------------------------------------------------
+
+#---------------ENTRADA-----------------
+produto1 = float (input("digite o valor do primeiro produto: "))
+produto2 = float (input("digite o valor do segundo produto: "))
+produto3 = float (input("digite o valor do terceiro produto: "))
+#-------------PROCESSO-------------------
+
+
+
+if produto1 < produto2 and produto1 < produto3:
+    print ("Compre o primeiro produto: ", produto1)
+
+if produto2 < produto1 and produto2 < produto3:
+    print ("Compre o segundo produto ", produto2)
+
+if produto3 < produto1 and produto3 < produto2:
+    print ("Compre o terceiro produto ", produto3)
+
+#--------------SAÍDA---------------------

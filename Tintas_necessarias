@@ -1,3 +1,6 @@
+
+
+
 # --------------------------------------------------------------------------------------------------------------------------
 # Nome: Lê Alves
 # Programa: Phyton
@@ -31,6 +34,57 @@ elif metros_obra > lata:
     
     print("será necessário " , metros_falta, " latas para printar")
     print ("Valor total das latas: ", valor_total)
+
+
+#--------------SAÍDA---------------------
+
+
+
+
+# --------------------------------------------------------------------------------------------------------------------------
+# Nome: Lê Alves
+# Programa: Phyton
+# Data: 30/11/2021
+# Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. 
+#Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, 
+#que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00.
+#Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações:
+#comprar apenas latas de 18 litros;
+#comprar apenas galões de 3,6 litros;
+#misturar latas e galões, de forma que o desperdício de tinta seja menor. Acrescente 10% de folga e sempre arredonde os valores 
+#para cima, isto é, considere latas cheias.
+#------------------------------------------------------------------------------------------------------------------------------
+
+#---------------ENTRADA-----------------
+import math
+
+lata_grande = 108
+lata_pequena = 21.
+valor_lata1 = 80
+valor_lata2 = 25
+
+
+    metros_obra = float (input(" Quanto em m² de área será pintada? "))   
+
+
+
+#---------------ENTRADA-----------------
+
+#-------------PROCESSO-------------------
+
+
+
+
+#--------------SAÍDA---------------------s_falta = metros_obra / lata_pequena 
+
+    metros_falta = math.ceil(metros_falta)
+    
+    valor_total_pequeno = metros_falta * valor_lata2
+    
+    print("será necessário " , metros_falta, " lata(\s) para printar")
+    print ("Valor total das latas: ", valor_total_pequeno)
+
+
 
 
 #--------------SAÍDA---------------------

@@ -1,0 +1,10 @@
+peso = float (input('Qual o peso do peixe? '))
+
+if peso > 50:
+    excesso = peso - 50
+    pagar_total = excesso * 4
+    print ("O peixe tem ", excesso, "kg além do permitido\n")
+    print ("Você pagará uma multa no valor total de: ", pagar_total)
+    
+else:
+    print("Você não pagará nenhuma multa.")

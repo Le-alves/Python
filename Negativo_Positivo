@@ -1,0 +1,24 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Nome: Lê Alves
+# Programa: Phyton
+# Data: 30/11/2021
+#Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+#------------------------------------------------------------------------------------------------------------------------------
+
+#---------------ENTRADA-----------------
+
+numero_1 = float (input("Digite um número: "))
+    
+#-------------PROCESSO-------------------
+
+if numero_1 > 0:
+    print(numero_1," é um número positivo")
+        
+if numero_1 < 0:
+    print(numero_1," é o número negativo")
+
+elif numero_1 == 0:
+    print(numero_1," é o número 0")
+
+
+#--------------SAÍDA---------------------

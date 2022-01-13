@@ -1,0 +1,23 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Nome: Lê Alves
+# Programa: Phyton
+# Data: 31/12/2021
+# Faça um Programa que verifique se uma letra digitada é "F" ou "M". 
+#Conforme a letra escrever: F - Feminino, M - Masculino, o - Outro Gênero.
+#------------------------------------------------------------------------------------------------------------------------------
+vogal = 
+#---------------ENTRADA-----------------
+letra = input ("Digite o gênero da pessoa")
+#-------------PROCESSO-------------------
+if "f" in letra:
+    print ("Gerero feminino")
+
+if "m" in letra:
+    print ("Gerero masculino")
+    
+if "o" in letra:
+    print ("outro gênero")
+
+
+#--------------SAÍDA---------------------
+

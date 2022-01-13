@@ -1,0 +1,27 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Nome: Lê Alves
+# Programa: Phyton
+# Data: 30/11/2021
+# Faça um Programa que leia três números e mostre o maior deles.
+#------------------------------------------------------------------------------------------------------------------------------
+
+#---------------ENTRADA-----------------
+numero1 = float (input("digite o primeiro numero: "))
+numero2 = float (input("digite o segundo numero: "))
+numero3 = float (input("digite o terceiro numero: "))
+#-------------PROCESSO-------------------
+
+
+
+if numero1 > numero2 and numero1 > numero3:
+    print ("O maior é o numero: ", numero1)
+
+if numero2 > numero1 and numero2 > numero3:
+    print ("O maior é o numero: ", numero2)
+
+if numero3 > numero1 and numero3 > numero2:
+    print ("O maior é o numero: ", numero3)
+
+#--------------SAÍDA---------------------
+
+
