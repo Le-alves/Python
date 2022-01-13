@@ -1,0 +1,10 @@
+#Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+
+lado = input ("Digite o valor de um lado do quadrado: ")
+lado = float (lado)
+
+area = lado **2
+
+resultado_final = area ** 2
+
+print ("O valor da área é de: ", area, "\nSeu dobro será de: ", resultado_final)

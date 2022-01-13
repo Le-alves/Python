@@ -1,0 +1,37 @@
+#---------------ENTRADA-----------------
+horas_diarias = 8
+dias_trabalhados = 5
+semanas_mes = 4
+
+valor_hora = input ("Quanto você recebe por hora?: ")
+valor_hora = float (valor_hora)
+#-------------PROCESSO-------------------
+
+
+salario_dia = valor_hora * horas_diarias
+salario_semana = salario_dia * dias_trabalhados
+salario_mes = salario_semana * semanas_mes
+
+ir =  float (11 / 100)
+inss = float (8/100)
+sindicato = 5/100
+
+x = salario_mes - (salario_mes * ir) 
+valor_ir = x - salario_mes
+
+x1 = salario_mes - (salario_mes * inss) 
+valor_inss = x1 - salario_mes
+
+x2 = salario_mes - (salario_mes * sindicato) 
+valor_sindicato = x2 - salario_mes
+
+descontos = valor_ir + valor_inss + valor_sindicato
+
+salario_liquido = salario_mes - (- descontos)
+
+#--------------SAÍDA---------------------
+print ("+ Salário Bruto : R$", salario_mes)
+print('- IR (11%) : R$ {:.2f}'.format(valor_ir) )
+print("- INSS (8%) : R${:.2f}".format(valor_inss))
+print ("- Sindicato ( 5%) : R${:.2f}".format(valor_sindicato))
+print ("= Salário Liquido : R${:.2f}".format(salario_liquido))

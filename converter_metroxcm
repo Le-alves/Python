@@ -1,0 +1,14 @@
+****** Autor: Lê Alves *****
+*Data 19/11/21
+*Algoritimos em Phyton
+
+
+
+*Conversor M para CM
+
+metros = input ("Digite o valor em metros")
+metros = float (metros)
+
+centimetros = metros * 1000
+
+print ("O valor em centimetros foi de: ", centimetros)

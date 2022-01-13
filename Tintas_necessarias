@@ -1,0 +1,37 @@
+# --------------------------------------------------------------------------------------------------------------------------
+# Nome: Lê Alves
+# Programa: Phyton
+# Data: 31/11/2021
+# Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. 
+# Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros,
+# que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
+#------------------------------------------------------------------------------------------------------------------------------
+
+#---------------ENTRADA-----------------
+import math
+
+lata = 54
+valor_lata = 80
+
+metros_obra = float (input(" Quanto em m² de área será pintada? "))   
+
+#-------------PROCESSO-------------------
+
+
+if metros_obra <= lata:
+    
+    print ("Será necessário uma lata de tinta")
+
+elif metros_obra > lata:
+    
+    metros_falta = metros_obra / lata 
+    metros_falta = math.ceil(metros_falta)
+    
+    valor_total = metros_falta * valor_lata
+    
+    print("será necessário " , metros_falta, " latas para printar")
+    print ("Valor total das latas: ", valor_total)
+
+
+#--------------SAÍDA---------------------
+
