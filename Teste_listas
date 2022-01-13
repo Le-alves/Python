@@ -1,0 +1,9 @@
+frase = 'uma FRASE'
+listafrase = list(frase)
+print(listafrase)
+stringfinal = '-/'.join(listafrase)
+print(stringfinal)
+stringfinal = ''.join(listafrase)
+print(stringfinal)
+frase = 'uma\tFRASE'
+print(frase)
